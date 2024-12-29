@@ -25,7 +25,7 @@
             <span class="fs-5">Instagram</span>
         </div>
         <div class="d-flex align-items-stretch mt-1">
-            <button type="button" class="btn btn-success me-2 btn-sm btn-md btn-lg">Create a new post</button>
+            <button type="button" class="btn btn-success me-2 btn-sm btn-md btn-lg" data-bs-toggle="modal" data-bs-target="#miModal">Create a new post</button>
             <div class="btn-group">
                 <button type="button" class="btn btn-secondary">
                     <i class="fa-solid fa-gear"></i>
@@ -44,7 +44,34 @@
         </div>
     </div>
 
-    <!-- Navigation -->
+    <!-- MODAL -->
+
+    <div class="modal" id="miModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Create a new post</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Caption:</p>
+                <textarea class="w-100 d-flex align-items-start" style="height: 3.5rem;" placeholder="Add the caption of your post here"></textarea>
+            </div>
+            <div class="iconos">
+                <div class="camera d-flex ps-3 pb-4 gap-2">
+                    <i class="fa-solid fa-camera p-2 border border-1"></i>
+                    <i class="fa-solid fa-location-dot p-2 border border-1"></i>
+                </div>    
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success">Publish</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- navegación grid o square -->
     <div class="container-fluid d-flex justify-content-center py-3">
         <ul class="nav">
             <li class="nav-item">
@@ -56,7 +83,7 @@
         </ul>
     </div>
 
-    <!-- Content -->
+    <!-- Content grid -->
     <div id="content-grid">
         <!-- Three Rows of Images -->
         <div class="container-fluid d-flex">
