@@ -12,12 +12,12 @@
         html, body {
             height: 100%; 
         }
-       
+    
     </style>
 </head>
 <body>
-    <!-- Header -->
-    <div class="container-fluid d-flex align-items-start justify-content-between" style="height: 10%;background-color: rgb(247, 242, 242);">
+     <!-- Header -->
+     <div class="container-fluid d-flex align-items-start justify-content-between" style="height: 10%;background-color: rgb(247, 242, 242);">
         <div class="d-flex align-items-center">
             <i class="fa-brands fa-instagram me-2"></i>
             <span class="fs-5">Instagram</span>
@@ -73,58 +73,67 @@
     <div class="container-fluid d-flex justify-content-center py-3">
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link active" id="grid-view" href="#"><i class="fa-solid fa-table-cells"></i></a>
+                <a class="nav-link active" id="grid-view" href="index.html"><i class="fa-solid fa-table-cells"></i></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" id="square-view" href="index2.html"><i class="fa-solid fa-square"></i></a>
             </li>
         </ul>
     </div>
+ <!-- contenido de square -->
+ <div id="content-square" class="hidden">
+    <div class="container-fluid">
+        <!-- Primer post -->
+        <div class="row d-flex justify-content-center mb-4">
+            <div class="container border border-1 rounded-1" style="width: 600px; margin: 0; padding: 0;">
+                <div class="header p-2">
+                    <p class="titulo d-inline-block mb-0 fs-4" style="font-weight: 500;">El Tíbet!</p>
+                    <p class="fecha d-flex-end d-inline-block mb-0 float-end align-items-start" style="font-size: 13px;">08/11</p>
+                </div>
+                <div class="img" style="margin: 0; padding: 0;">
+                    <img src="/html-hello/foto1_feed.jpg" alt="" class="foto1 w-100">
+                </div>
+                <div class="bottom p-2">
+                    <p class="likes mb-1"><b>23 likes</b></p>
+                    <p class="mb-0">Este es un ejemplo de Instagram para #4geeks Academy </p>
+                </div>
+            </div>
+        </div>
 
-    <!-- Content grid -->
-    <div id="content-grid">
-        <!-- Three Rows of Images -->
-        <div class="container-fluid d-flex">
-            <div class="row g-1">
-                <div class="col-12 col-md-4">
-                    <img src="/html-hello/foto1_feed.jpg" alt="" class="img-fluid">
+        <!-- Segundo post -->
+        <div class="row d-flex justify-content-center mb-4">
+            <div class="container border border-1 rounded-1" style="width: 600px; margin: 0; padding: 0;">
+                <div class="header p-2">
+                    <p class="titulo d-inline-block mb-0 fs-4" style="font-weight: 500;">Arquitectura moderna!</p>
+                    <p class="fecha d-flex-end d-inline-block mb-0 float-end align-items-start" style="font-size: 13px;">11/08</p>
                 </div>
-                <div class="col-12 col-md-4">
-                    <img src="/html-hello/foto1_feed.jpg" alt="" class="img-fluid">
+                <div class="img" style="margin: 0; padding: 0;">
+                    <img src="/html-hello/foto-3-feed.jpg" alt="" class="foto1 w-100">
                 </div>
-                <div class="col-12 col-md-4">
-                    <img src="/html-hello/foto1_feed.jpg" alt="" class="img-fluid">
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid d-flex">
-            <div class="row g-1 pt-1">
-                <div class="col-12 col-md-4">
-                    <img src="/html-hello/foto2-feed.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-12 col-md-4">
-                    <img src="/html-hello/foto2-feed.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-12 col-md-4">
-                    <img src="/html-hello/foto2-feed.jpg" alt="" class="img-fluid">
+                <div class="bottom p-2">
+                    <p class="likes mb-1"><b>180 likes</b></p>
+                    <p class="mb-0">Este es un ejemplo de Instagram para #4geeks Academy </p>
                 </div>
             </div>
         </div>
-        <div class="container-fluid d-flex">
-            <div class="row g-1 pt-1">
-                <div class="col-12 col-md-4">
-                    <img src="/html-hello/foto-3-feed.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-12 col-md-4">
-                    <img src="/html-hello/foto-3-feed.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-12 col-md-4">
-                    <img src="/html-hello/foto-3-feed.jpg" alt="" class="img-fluid">
-                </div>
-            </div>
-        </div>
-    </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
-</html>
+        <!-- Tercer post -->
+        
+         <div class="row d-flex justify-content-center mb-4">
+            <div class="container border border-1 rounded-1" style="width: 600px; margin: 0; padding: 0;">
+                <div class="header p-2">
+                    <p class="titulo d-inline-block mb-0 fs-4" style="font-weight: 500;">Santuario Histórico de Machu Picchu</p>
+                    <p class="fecha d-flex-end d-inline-block mb-0 float-end align-items-start" style="font-size: 13px;">05/03</p>
+                </div>
+                <div class="img" style="margin: 0; padding: 0;">
+                    <img src="/html-hello/foto2-feed.jpg" alt="" class="foto1 w-100">
+                </div>
+                <div class="bottom p-2">
+                    <p class="likes mb-1"><b>255 likes</b></p>
+                    <p class="mb-0">Este es un ejemplo de Instagram para #4geeks Academy </p>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+    </html>
